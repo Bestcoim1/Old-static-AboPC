@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="static-base" content="./" />
+    <link rel="icon" href="data:," />
+    <title>Tra cứu đơn hàng · ABOPC</title>
+
+    <link rel="stylesheet" href="./assets/css/data.css" />
+    <link rel="stylesheet" href="./assets/css/guestOrder.css" />
+  </head>
+  <body class="storefront-static">
+    <div id="guest-root">
+      <main id="main-content" tabindex="-1">
+        <a class="brand" href="./index.html">ABO<span>PC</span></a>
+        <section>
+          <p class="eyebrow">TRA CỨU ĐƠN KHÁCH</p>
+          <h1>Xem đơn hàng của bạn</h1>
+          <p class="muted"></p>
+          <div data-static-form="">
+            <h2>Gửi lại liên kết tra cứu</h2>
+            <p class="muted">Nhập mã đơn và email đã dùng khi đặt hàng.</p>
+            <label for="order-number">Mã đơn hàng</label
+            ><input
+              id="order-number"
+              maxlength="36"
+              required=""
+              data-static-unavailable=""
+              disabled=""
+              title="Chức năng này cần JavaScript."
+            /><label for="contact-email">Email liên hệ</label
+            ><input
+              id="contact-email"
+              type="email"
+              maxlength="254"
+              required=""
+              data-static-unavailable=""
+              disabled=""
+              title="Chức năng này cần JavaScript."
+            /><button
+              type="button"
+              data-static-unavailable=""
+              disabled=""
+              title="Chức năng này cần JavaScript."
+            >
+              Gửi liên kết
+            </button>
+          </div>
+        </section>
+        <p class="footer">
+          <a href="./track-order/index.html">Tra cứu đơn khác</a> ·
+          <a href="./index.html">Quay lại cửa hàng</a> · Không chia sẻ liên kết tra cứu với người
+          khác.
+        </p>
+      </main>
+    </div>
+  </body>
+</html>
